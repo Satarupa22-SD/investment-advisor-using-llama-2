@@ -1,0 +1,5 @@
+streamlit==0.88.0
+transformers==4.11.0
+torch==1.9.0
+llama_index==<insert_version_here>
+langchain==<insert_version_here>
