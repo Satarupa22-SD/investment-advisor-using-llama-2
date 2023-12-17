@@ -1,6 +1,7 @@
 # Import streamlit for app dev
 import streamlit as st
-
+# Import constants
+import constants
 # Import transformer classes for generaiton
 from transformers import AutoTokenizer, AutoModelForCausalLM, TextStreamer
 # Import torch for datatype attributes
@@ -23,7 +24,7 @@ from pathlib import Path
 # Define variable to hold llama2 weights naming
 name = "meta-llama/Llama-2-70b-chat-hf"
 # Set auth token variable from hugging face
-auth_token = "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"
+auth_token = constants.AUTH
 
 # @st.cache_resource
 def get_tokenizer_model():
