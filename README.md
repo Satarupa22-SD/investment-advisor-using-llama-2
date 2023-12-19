@@ -1,7 +1,7 @@
 # investment-advisor-using-llama-2
 # AI Banker 🦙
 
-Llama Banker is an AI-powered financial assistant designed to provide intelligent and ethical responses related to the financial performance of a company. This Streamlit-based application utilizes Hugging Face's `Transformers` library and the `meta-llama/Llama-2-70b-hf` model for natural language processing and document generation.
+AI Banker is an financial assistant designed to provide intelligent and ethical responses related to the financial performance of a company. This Streamlit-based application utilizes Hugging Face's `Transformers` library and the `meta-llama/Llama-2-70b-hf` model for natural language processing and document generation.
 
 ## Getting Started
 
